@@ -1,0 +1,140 @@
+/* Copyright (c) TribuFu. All Rights Reserved */
+
+@import "./Colors";
+
+body {
+    background-color: var(--heze-background);
+    font-family: "Roboto", var(--bs-font-sans-serif);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-gutter: stable both-edges;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2b3035;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5c636a;
+}
+
+/* Mobile */
+@media (min-width: 576px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+.breadcrumb-item,
+a {
+    text-decoration: none;
+}
+
+.btn-link,
+a {
+    text-decoration: none;
+}
+
+.card {
+    border: 0;
+}
+
+.card-header {
+    border: none;
+}
+
+.form-control {
+    border: none;
+    background-color: var(--heze-background);
+}
+
+.form-control:focus {
+    border: none;
+    background-color: var(--heze-background);
+}
+
+.form-select {
+    border: none;
+    background-color: var(--heze-background);
+}
+
+.form-select:focus {
+    border: none;
+    background-color: var(--heze-background);
+}
+
+.nav-pills .file-link {
+    background-color: none;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-pills .file-link.active {
+    background-color: $secondary;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-color: var(--heze-surface-color-4);
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+    border-color: rgba($color: $white, $alpha: 0);
+}
+
+.input-group-text {
+    border: none;
+}
+
+.input-group > .form-select {
+    background-color: var(--heze-surface-color-2);
+}
+
+thead {
+    background-color: #252a2e;
+    border-radius: var(--bs-card-border-radius);
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    border-style: none;
+}
+
+[data-bs-theme="dark"] .carousel .carousel-indicators [data-bs-target],
+[data-bs-theme="dark"] .carousel .carousel-indicators [data-bs-target] {
+    background-color: #f8f9fa;
+}
