@@ -1,0 +1,9 @@
+[Bb]uild/
+[Ss]aved/
+node_modules/
+.next/
+
+.DS_Store
+desktop.ini
+yarn-error.log
+next-env.d.ts
