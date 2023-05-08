@@ -320,6 +320,21 @@ $theme-colors: (
     --heze-surface-color-4: #ffffff;
     --heze-form-group-select: #dee2e6;
     --heze-link-button: #6c757d;
+
+
+    --heze-background: #000000;
+    --heze-surface: #000000;
+    --heze-elevation-00: #000000;
+    --heze-elevation-01: #000000;
+    --heze-elevation-02: #000000;
+    --heze-elevation-03: #000000;
+    --heze-elevation-04: #000000;
+    --heze-elevation-06: #000000;
+    --heze-elevation-08: #000000;
+    --heze-elevation-12: #000000;
+    --heze-elevation-08: #000000;
+    --heze-elevation-09: #000000;
+    --heze-elevation-00: #000000;
 }
 
 @include color-mode(dark) {
