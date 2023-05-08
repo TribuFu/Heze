@@ -1,3 +1,3 @@
 # Heze
 
-React Component Library
+Work in Progress Design System.
