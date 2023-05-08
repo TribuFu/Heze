@@ -1,3 +1,3 @@
 # Heze
 
-Work in Progress Design system
+Work in Progress Design System.
